@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">SPACE<span>EXPLORER</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#planets">Planets</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="stars"></div>
+
+        <div class="hero-content">
+            <p class="subtitle">EXPLORE THE UNKNOWN</p>
+            <h1>Discover the<br><span>Universe.</span></h1>
+            <p class="description">
+                Travel through space, explore planets
+                and discover the mysteries of our universe.
+            </p>
+            <a href="#planets" class="explore-btn">Start Exploring ↗</a>
+        </div>
+
+        <div class="planet planet-main"></div>
+        <div class="planet planet-small"></div>
+        <div class="orbit"></div>
+    </section>
+
+    <section class="planets-section" id="planets">
+        <p class="subtitle">OUR SOLAR SYSTEM</p>
+        <h2>Explore The Planets</h2>
+
+        <input type="text" id="search" placeholder="Search planets...">
+
+        <div class="planet-grid" id="planetGrid"></div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>The Universe Is Waiting.</h2>
+        <p>There is always something new to discover beyond our world.</p>
+    </section>
+
+    <footer>
+        SPACE EXPLORER © 2026
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
